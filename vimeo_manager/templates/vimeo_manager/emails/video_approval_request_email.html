@@ -1,0 +1,14 @@
+{% load i18n %}
+
+<p>
+    {% trans 'Hi,' context 'Email' %}<br />
+    {% trans 'You have received an approval request for the following videos:' context 'Video approval request email' %}
+</p>
+<ul>
+{% for video in videos %}
+    <li>
+        {% url 'admin:vimeo_manager_video_change' video.id as video_url %}
+        {% blocktrans with video_title=video.name domain=domain url=video_url %}{{ video_title }}: {{ domain }}{{ video_url }}{% endblocktrans %}
+    </li>
+{% endfor %}
+</ul>

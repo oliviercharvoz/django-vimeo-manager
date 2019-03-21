@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 12:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/collection.py:28
+msgctxt "Collection admin"
+msgid "link"
+msgstr ""
+
+#: admin/collection.py:34
+msgctxt "Collection admin"
+msgid "thumbnail"
+msgstr ""
+
+#: admin/collection.py:40
+msgctxt "Resource admin"
+msgid "Update from Vimeo"
+msgstr ""
+
+#: admin/resource.py:35
+#, python-format
+msgctxt "Resource synchronization"
+msgid ""
+"%(resource_class_name)s object \"%(resource_name)s\" has been successfully "
+"synchronized."
+msgstr ""
+
+#: admin/resource.py:42
+#, python-format
+msgctxt "Resource synchronization"
+msgid ""
+"The synchronization of the %(resource_class_name)s object \"%(resource_name)s"
+"\" has failed."
+msgstr ""
+
+#: admin/video.py:40
+msgctxt "Video admin"
+msgid "link"
+msgstr ""
+
+#: admin/video.py:46
+msgctxt "Video admin"
+msgid "thumbnail"
+msgstr ""
+
+#: admin/video.py:52
+msgctxt "Video admin"
+msgid "video embed"
+msgstr ""
+
+#: admin/video.py:60
+msgctxt "Video approval request email"
+msgid "Your video approval request has been sent"
+msgstr ""
+
+#: admin/video.py:64
+msgctxt "Video approval request email"
+msgid "Your video approval request could not be sent"
+msgstr ""
+
+#: admin/video.py:66
+msgctxt "Video admin"
+msgid "Request approval"
+msgstr ""
+
+#: apps.py:7
+msgid "Vimeo manager"
+msgstr ""
+
+#: models/album.py:12
+msgctxt "Album model"
+msgid "album"
+msgstr ""
+
+#: models/album.py:13
+msgctxt "Album model"
+msgid "albums"
+msgstr ""
+
+#: models/channel.py:12
+msgctxt "Channel model"
+msgid "channel"
+msgstr ""
+
+#: models/channel.py:13
+msgctxt "Channel model"
+msgid "channels"
+msgstr ""
+
+#: models/collection.py:17
+msgctxt "Collection field"
+msgid "name"
+msgstr ""
+
+#: models/collection.py:21
+msgctxt "Collection field"
+msgid "description"
+msgstr ""
+
+#: models/collection.py:25
+msgctxt "Collection field"
+msgid "url"
+msgstr ""
+
+#: models/collection.py:28
+msgctxt "Collection field"
+msgid "created"
+msgstr ""
+
+#: models/collection.py:31
+msgctxt "Collection field"
+msgid "modified"
+msgstr ""
+
+#: models/collection.py:34
+msgctxt "Collection field"
+msgid "thumbnail url"
+msgstr ""
+
+#: models/collection.py:38
+msgctxt "Collection field"
+msgid "videos"
+msgstr ""
+
+#: models/resource.py:12
+msgctxt "Resource field"
+msgid "synchronized"
+msgstr ""
+
+#: models/resource.py:16
+msgctxt "Resource field"
+msgid "last import"
+msgstr ""
+
+#: models/resource.py:20
+msgctxt "Resource field"
+msgid "last export"
+msgstr ""
+
+#: models/resource.py:26
+msgctxt "Resource field"
+msgid "uri"
+msgstr ""
+
+#: models/video.py:26
+msgctxt "Video approval status choice"
+msgid "not submitted"
+msgstr ""
+
+#: models/video.py:27
+msgctxt "Video approval status choice"
+msgid "pending"
+msgstr ""
+
+#: models/video.py:28
+msgctxt "Video approval status choice"
+msgid "approved"
+msgstr ""
+
+#: models/video.py:29
+msgctxt "Video approval status choice"
+msgid "rejected"
+msgstr ""
+
+#: models/video.py:33
+msgctxt "Video field"
+msgid "approval status"
+msgstr ""
+
+#: models/video.py:39
+msgctxt "Video field"
+msgid "name"
+msgstr ""
+
+#: models/video.py:43
+msgctxt "Video field"
+msgid "description"
+msgstr ""
+
+#: models/video.py:47
+msgctxt "Video field"
+msgid "url"
+msgstr ""
+
+#: models/video.py:50
+msgctxt "Video field"
+msgid "created"
+msgstr ""
+
+#: models/video.py:53
+msgctxt "Video field"
+msgid "modified"
+msgstr ""
+
+#: models/video.py:56
+msgctxt "Video field"
+msgid "tags"
+msgstr ""
+
+#: models/video.py:58
+msgctxt "Video field tags help"
+msgid "Up to 20 keywords, separated by commas"
+msgstr ""
+
+#: models/video.py:61
+msgctxt "Video field"
+msgid "thumbnail url"
+msgstr ""
+
+#: models/video.py:65
+msgctxt "Video model"
+msgid "video"
+msgstr ""
+
+#: models/video.py:66
+msgctxt "Video model"
+msgid "videos"
+msgstr ""
+
+#: templates/vimeo_manager/emails/video_approval_request_email.html:4
+#: templates/vimeo_manager/emails/video_approval_request_email.txt:3
+msgctxt "Email"
+msgid "Hi,"
+msgstr ""
+
+#: templates/vimeo_manager/emails/video_approval_request_email.html:5
+#: templates/vimeo_manager/emails/video_approval_request_email.txt:5
+msgctxt "Video approval request email"
+msgid "You have received an approval request for the following videos:"
+msgstr ""
+
+#: templates/vimeo_manager/emails/video_approval_request_email.html:11
+#: templates/vimeo_manager/emails/video_approval_request_email.txt:9
+#, python-format
+msgid "%(video_title)s: %(domain)s%(video_url)s"
+msgstr ""
+
+#: utils.py:102
+msgctxt "Video approval"
+msgid "Approval group does not exist"
+msgstr ""
+
+#: utils.py:119
+#, python-format
+msgctxt "Video approval request email"
+msgid "[%(site_name)s] Video approval request"
+msgstr ""

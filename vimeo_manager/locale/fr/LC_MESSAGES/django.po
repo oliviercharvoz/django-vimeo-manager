@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 12:01+0100\n"
+"PO-Revision-Date: 2019-03-21 12:01+0100\n"
+"Last-Translator: Olivier Charvoz <o.charvoz@institut-lyonnais.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#: admin/collection.py:28
+msgctxt "Collection admin"
+msgid "link"
+msgstr "lien"
+
+#: admin/collection.py:34
+msgctxt "Collection admin"
+msgid "thumbnail"
+msgstr "miniature"
+
+#: admin/collection.py:40
+msgctxt "Resource admin"
+msgid "Update from Vimeo"
+msgstr "Mettre à jour depuis Vimeo"
+
+#: admin/resource.py:35
+#, python-format
+msgctxt "Resource synchronization"
+msgid ""
+"%(resource_class_name)s object \"%(resource_name)s\" has been successfully "
+"synchronized."
+msgstr ""
+"L'objet %(resource_class_name)s \"%(resource_name)s\" a été correctement "
+"synchronisé."
+
+#: admin/resource.py:42
+#, python-format
+msgctxt "Resource synchronization"
+msgid ""
+"The synchronization of the %(resource_class_name)s object \"%(resource_name)s"
+"\" has failed."
+msgstr ""
+"La synchronisation de l'objet %(resource_class_name)s \"%(resource_name)s\" "
+"a échoué."
+
+#: admin/video.py:40
+msgctxt "Video admin"
+msgid "link"
+msgstr "lien"
+
+#: admin/video.py:46
+msgctxt "Video admin"
+msgid "thumbnail"
+msgstr "miniature"
+
+#: admin/video.py:52
+msgctxt "Video admin"
+msgid "video embed"
+msgstr "aperçu vidéo"
+
+#: admin/video.py:60
+msgctxt "Video approval request email"
+msgid "Your video approval request has been sent"
+msgstr "Votre demande de validation a été envoyée"
+
+#: admin/video.py:64
+msgctxt "Video approval request email"
+msgid "Your video approval request could not be sent"
+msgstr "Votre demande de validation n'a pas pu être envoyée"
+
+#: admin/video.py:66
+msgctxt "Video admin"
+msgid "Request approval"
+msgstr "Demande de validation"
+
+#: apps.py:7
+msgid "Vimeo manager"
+msgstr "Gestionnaire Vimeo"
+
+#: models/album.py:12
+msgctxt "Album model"
+msgid "album"
+msgstr "album"
+
+#: models/album.py:13
+msgctxt "Album model"
+msgid "albums"
+msgstr "albums"
+
+#: models/channel.py:12
+msgctxt "Channel model"
+msgid "channel"
+msgstr "chaîne"
+
+#: models/channel.py:13
+msgctxt "Channel model"
+msgid "channels"
+msgstr "chaînes"
+
+#: models/collection.py:17
+msgctxt "Collection field"
+msgid "name"
+msgstr "nom"
+
+#: models/collection.py:21
+msgctxt "Collection field"
+msgid "description"
+msgstr "description"
+
+#: models/collection.py:25
+msgctxt "Collection field"
+msgid "url"
+msgstr "URL"
+
+#: models/collection.py:28
+msgctxt "Collection field"
+msgid "created"
+msgstr "créé"
+
+#: models/collection.py:31
+msgctxt "Collection field"
+msgid "modified"
+msgstr "modifié"
+
+#: models/collection.py:34
+msgctxt "Collection field"
+msgid "thumbnail url"
+msgstr "URL de la miniature"
+
+#: models/collection.py:38
+msgctxt "Collection field"
+msgid "videos"
+msgstr "vidéos"
+
+#: models/resource.py:12
+msgctxt "Resource field"
+msgid "synchronized"
+msgstr "synchronisé"
+
+#: models/resource.py:16
+msgctxt "Resource field"
+msgid "last import"
+msgstr "dernier import"
+
+#: models/resource.py:20
+msgctxt "Resource field"
+msgid "last export"
+msgstr "dernier export"
+
+#: models/resource.py:26
+msgctxt "Resource field"
+msgid "uri"
+msgstr "URI"
+
+#: models/video.py:26
+msgctxt "Video approval status choice"
+msgid "not submitted"
+msgstr "non soumise pour validation"
+
+#: models/video.py:27
+msgctxt "Video approval status choice"
+msgid "pending"
+msgstr "en attente"
+
+#: models/video.py:28
+msgctxt "Video approval status choice"
+msgid "approved"
+msgstr "validée"
+
+#: models/video.py:29
+msgctxt "Video approval status choice"
+msgid "rejected"
+msgstr "refusée"
+
+#: models/video.py:33
+msgctxt "Video field"
+msgid "approval status"
+msgstr "statut de validation"
+
+#: models/video.py:39
+msgctxt "Video field"
+msgid "name"
+msgstr "nom"
+
+#: models/video.py:43
+msgctxt "Video field"
+msgid "description"
+msgstr "description"
+
+#: models/video.py:47
+msgctxt "Video field"
+msgid "url"
+msgstr "URL"
+
+#: models/video.py:50
+msgctxt "Video field"
+msgid "created"
+msgstr "créé"
+
+#: models/video.py:53
+msgctxt "Video field"
+msgid "modified"
+msgstr "modifié"
+
+#: models/video.py:56
+msgctxt "Video field"
+msgid "tags"
+msgstr "mots-clés"
+
+#: models/video.py:58
+msgctxt "Video field tags help"
+msgid "Up to 20 keywords, separated by commas"
+msgstr "20 mots-clés maximum, séparés par des virgules"
+
+#: models/video.py:61
+msgctxt "Video field"
+msgid "thumbnail url"
+msgstr "URL de la miniature"
+
+#: models/video.py:65
+msgctxt "Video model"
+msgid "video"
+msgstr "vidéo"
+
+#: models/video.py:66
+msgctxt "Video model"
+msgid "videos"
+msgstr "vidéos"
+
+#: templates/vimeo_manager/emails/video_approval_request_email.html:4
+#: templates/vimeo_manager/emails/video_approval_request_email.txt:3
+msgctxt "Email"
+msgid "Hi,"
+msgstr "Bonjour,"
+
+#: templates/vimeo_manager/emails/video_approval_request_email.html:5
+#: templates/vimeo_manager/emails/video_approval_request_email.txt:5
+msgctxt "Video approval request email"
+msgid "You have received an approval request for the following videos:"
+msgstr "Vous avez reçu une demande de validation pour les vidéos suivantes :"
+
+#: templates/vimeo_manager/emails/video_approval_request_email.html:11
+#: templates/vimeo_manager/emails/video_approval_request_email.txt:9
+#, python-format
+msgid "%(video_title)s: %(domain)s%(video_url)s"
+msgstr "%(video_title)s : %(domain)s%(video_url)s"
+
+#: utils.py:102
+msgctxt "Video approval"
+msgid "Approval group does not exist"
+msgstr "Le groupe Approval n'existe pas"
+
+#: utils.py:119
+#, python-format
+msgctxt "Video approval request email"
+msgid "[%(site_name)s] Video approval request"
+msgstr "[%(site_name)s] Demande de validation"
+
+#~ msgctxt "Video approval status choice"
+#~ msgid "not approved"
+#~ msgstr "non validée"
